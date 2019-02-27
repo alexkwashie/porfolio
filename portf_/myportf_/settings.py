@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'port_App' 
+    'portf_App'
 ]
 
 MIDDLEWARE = [
@@ -118,4 +118,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/Users/alexkwashie/Desktop/WorkingFiles/portfolio/portf_/portf_App/static/'
