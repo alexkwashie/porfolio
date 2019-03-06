@@ -5,3 +5,9 @@ $(document).ready(function(){
         console.log('new')
     });
 });
+
+$(document).ready(function(){
+    $('.new').on('click',function(){
+        $('.active').toggleClass('active');
+    });
+});
