@@ -7,24 +7,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js">
 
-		{% load static %}
-	<script  type="text/javascript" src = "{% static 'appo.js' %}"></script>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
+
 
 	</head>
+
 	<body>
-<div class="example-classname">FIRST</div>
-<div class="example-classname">SECOND</div>
+<div class="lassname 2">FIRST</div>
+<div class="lassname 1">SECOND</div>
 
-   </div>
-</aside>
+<ul class="pagination">
+<li><a href="#lassname 1"><span class="hover-text">Home</span></a></li>
+<li><a href="#home"><span class="hover-text">Next</span></a></li>
 
-
-
-		<div id="wrappe">
-
+</ul>
 
 
-  </body>
+<script  type="text/javascript" src = "{% static 'appo.js' %}"></script>
+	</body>
+
 </html>
