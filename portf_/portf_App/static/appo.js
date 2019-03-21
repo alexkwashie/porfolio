@@ -2,7 +2,7 @@
 
 $(function() {
     $.scrollify({
-      section : ".lassname",
+      section : ".Pages",
     });
   });
 
