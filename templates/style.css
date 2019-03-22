@@ -1,6 +1,8 @@
 
 body, html {
 	height: 100%;
+	width: 100%
+
   }
 
 
@@ -8,7 +10,7 @@ body, html {
 	text-align: center;
 	font-size: 5rem;
 	height: 100%;
-	background: aqua;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(127, 114, 151));
 }
 
 hr{
@@ -20,7 +22,8 @@ hr{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+		align-items: center;
+		margin: auto;
 }
 
 
@@ -31,8 +34,11 @@ hr{
 }
 
 .new{
-	background-color: indianred;
-	padding: 11rem 0 11rem 0;
+	background-image: url("city.gif");
+	padding: 12rem 0 12rem 0;
+	width: 48%;
+	border-radius: 5px;
+
 }
 
 .col-6 h1{
