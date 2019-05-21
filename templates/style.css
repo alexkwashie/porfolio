@@ -14,8 +14,16 @@ body, html {
 
 }
 
-hr{
-	width: 50%;
+hr {
+  width: 50%;
+  background-color: azure;
+}
+
+hr.style {
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(179, 156, 156, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 
@@ -26,6 +34,16 @@ hr{
 		align-items: center;
 }
 
+.row1{
+  width: 100%;
+  display: flex;
+  height: 10px;
+}
+
+.col-2 img{
+  padding-top:20px;
+  width: 80%;
+}
 
 .row::after{
     display:table;
@@ -35,20 +53,31 @@ hr{
 
 /*Section 1*/
 .sec2a{
-	background-image: url("city.gif");
-	height: 100%;
+  background-image: url("city.gif");
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+
+.slide{
+	border-radius: 50%;
+	width: 32%;
+	border:0.5rem rgba(247, 245, 237, 0.3) solid;
+	padding: 7px;
+	margin-top: 6rem;
+	animation-name: img;
+  animation-duration: 2s;
 }
 
 .sec1a{
-  background-image: linear-gradient(to bottom right, rgb(244, 231, 245), rgb(250, 250, 226));
+  background-image: linear-gradient(to bottom right, rgb(244, 231, 245), rgb(255, 255, 255));
   height: 100%;
-  width: 100
+  width: 100%;
 }
+
 
 .col-6 h1{
 	font-size:100%;
@@ -59,21 +88,37 @@ hr{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 4px #16011d;
     font-size: 25px;
-    color: rgb(230, 241, 181);
+    color: rgb(246, 250, 227);
 }
 
 
 /*Section 2*/
+
+
 .sec1c{
-  background-image: linear-gradient(to bottom right, rgb(244, 231, 245), rgb(250, 250, 226));
+  background-image: linear-gradient(to bottom right, rgb(244, 231, 245), rgb(255, 255, 255));
   height: 100%;
   width: 100%;
 }
 
-.container{
-  width: 50%;
-  border: #16011d solid 2px
+.stack{
+  height: auto;
+  width: 100%;
+  border: #16011d solid 2px;
 }
+
+.sec2b{
+  background-image: linear-gradient(to bottom right, rgb(245, 219, 253), rgb(250, 250, 226));
+  height: 100%;
+  width: 100%;
+}
+
+h5{
+  text-align: left;
+}
+
+
+
 
 
 /*##########Grid#########*/
@@ -91,21 +136,12 @@ hr{
 .col-12 { width:100%;}
 
 
-img .slide{
-	border-radius: 50%;
-	width: 32%;
-	border:0.5rem rgba(247, 245, 237, 0.3) solid;
-	padding: 7px;
-	margin-top: 6rem;
-	animation-name: img;
-	animation-duration: 2s;
-}
+
 
 img{
 	width: 32%;
 	border:0.5rem rgba(247, 245, 237, 0.3) solid;
 	padding: 7px;
-	margin-top: 6rem;
 	animation-name: img;
 	animation-duration: 2s;
 }
@@ -126,4 +162,10 @@ img{
 .col-7.sec1{
 	background-image: linear-gradient(to bottom right, rgb(246, 230, 247), rgb(250, 250, 226));
 	height: 100%;
+}
+
+footer{
+  height: 5%;
+  background-color: #16011d;
+  width: 100%
 }
