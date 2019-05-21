@@ -1,14 +1,15 @@
 
 body, html {
-	height: 100%;
-	width: 100%
+	width: 100vw;
+  height: 100vh;
 
   }
 
 
 .Pages{
 	text-align: center;
-	height: 100%;
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -84,6 +85,6 @@ img{
 
 
 .col-7.sec1{
-	background-image: linear-gradient(to bottom right, rgb(194, 229, 245), rgb(250, 250, 226));
+	background-image: linear-gradient(to bottom right, rgb(218, 168, 247), rgb(250, 250, 226));
 	height: 100%;
 }
